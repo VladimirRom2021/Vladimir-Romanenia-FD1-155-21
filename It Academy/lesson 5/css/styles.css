@@ -1,0 +1,39 @@
+
+.header,.footer {
+    background-color:rgb(173,216,230);
+    color: rgb(0,0,255);
+    text-align: center;
+    height: 50px;
+}
+ h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+h4, h3 {
+    margin: 0;
+}
+.container{
+    background: url(ball.png) right top repeat-y, url(border_line.png) left top repeat-y;
+}
+.side {
+    float: left;
+}
+.main_txt {
+    margin-left: 210px;
+}
+.clearfix {
+    clear: both;
+}
+.main_txt img {
+    float: left;
+}
+
+
+h4 {
+    padding-left: 25px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 10px 0 10px;
+}
