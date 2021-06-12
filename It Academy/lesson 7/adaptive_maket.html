@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+                    }
+        .header,.footer{
+            background-color:rgb(173,216,230);
+            color: rgb(0,0,255);
+            text-align: center;
+            height: 50px;
+        }
+        div h3{
+            text-transform: uppercase;
+            padding-top: 10px;
+        }
+        .container{
+            background-image: url(img/ball.png);
+            background-repeat: repeat-y;
+            background-position: right;
+        }
+        .menu{
+            float: left;
+            background-color: rgb(240, 230, 140);
+        }
+        .main{
+            margin-left: 210px;
+            
+        }
+        .line{
+            clear: both;
+        }
+        h4{
+            padding-left: 25px;
+            text-align: center;
+        }
+        img{
+            float: left;
+        }
+        .line_menu{
+            background-image: url(img/border_line.png);
+            background-repeat: no-repeat repeat;
+        }
+        p{
+            margin: 10px 10px 0 10px;
+        }
+        @media all and (max-width: 990px){
+            .header, .container, .main, .footer, .menu{
+                float: none;
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                
+            }
+        }
+        @media all and (max-width: 320px){
+            .header, .container, .main, .footer, .menu, .main img{
+                font-size: larger;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+               
+            }
+        }
+        
+    
+
+   </style>
+</head>
+
+<body>
+    <!--
+        минимальное разрешение 320 
+        мобильники - 560
+        планшеты   -992
+        ноутбуки стнадртные - 1200
+        максимальное - 1920
+    -->
+   
+<body>
+    <div class="header">
+       <h3>привет участникам соревнований!</h3>
+    </div>
+
+   
+    <div class="container">
+        <div class="line_menu">
+        <div class="menu">
+            <h4>Виды спорта:</h4>
+            <ul>
+                <li><a href="#">конькобежный спорт</a></li>
+                <li><a href="#">биатлон</a></li>
+                <li><a href="#">футбол</a></li>
+                <li><a href="#">стрельба из лука</a></li>
+                <li><a href="#">прыжки в длину</a></li>
+                <li><a href="#">прыжки в высоту</a></li>
+                <li><a href="#">фигурное катание</a></li>
+                <li><a href="#">синхронное плавание</a></li>
+                <li><a href="#">шахматы</a></li>
+                <li><a href="#">шашки</a></li>
+            </ul>
+        </div>
+        
+            <div class="main">
+            <h4>ФУТБОЛ</h4>
+            <img src="img/champs.png" alt="champions">
+
+            
+            
+            <p> Футбол — командный вид спорта, в котором целью является забить мяч в ворота 
+            соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника.
+            </p>
+
+            <p>Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих прин­ципов. 
+            Эти правила пред­наз­на­чены для применения на всех уровнях футбола, хотя есть неко­торые изме­нения для таких групп, 
+            как юниоры, взрослые, женщины и люди с ограниченными физическими возмож­ностями. Зако­ны очень часто фор­мули­ровались 
+            в общих чертах, кото­рые позволяют упростить их приме­нения в зависимости от харак­тера игры. 
+            </p>
+
+            </div>
+           <div class="line">
+            
+           </div>  
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>главное не победа, а участие!</h3>
+    </div>
+
+
+
+</body>
+</html>
