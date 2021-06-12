@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .simple a{
+            color: green;
+        }
+        .simple span{
+            color: red;
+            font-weight: 900;
+            font-size: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        div a:hover{
+            color: red;
+        }
+        .simple{
+            margin-top: 50px;
+        }
+        table a{
+            color: green;
+        }
+        table a:hover{
+            color: red;
+        }
+        .tbl{
+            margin-top: 50px;
+            clear: both;
+        }
+        .tbl td{
+            border-right: solid red;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .container_div a{
+            color: green;
+        }
+        .container_div div{
+            float: left;
+            border-right: solid red;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .container_div{
+            margin-top: 50px;
+        }
+        .container_inline{
+            margin-top: 100px;
+            clear: both;
+                      
+        }
+        .container_inline p{
+            display:inline-block;
+           
+        }
+        .container_inline p a{
+            border-right: solid red;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <!--simple--> 
+    <!--
+    * с помощью инлайновых тегов
+
+
+    -->
+    
+
+    <div class="simple">
+        <h2>Простая вёрстка с помощью инлайновых тегов</h2>
+
+        <a href="#">первая ссылка </a><span>|</span>
+        <a href="#">вторая ссылка </a><span>|</span>
+        <a href="#">третья ссылка </a><span>|</span>
+        <a href="#">четвертая ссылка </a><span>|</span>
+        <a href="#">пятая ссылка </a><span>|</span>
+        
+        
+    </div>
+    
+
+
+    <!--таблица-->
+    <!--
+    *  с помощью тегов <а>, обернутых в зафлоченный тег 
+        плюсы:
+        - простая и понятная разметка
+        - "резиновый" макет 
+        - настройки выравнивания
+        минусы:
+        - громоздкий код (если таблица ммноголочная со значительным числом ячеек) отсюда и загрузка веб-страниц
+        - на сегодняшний день табличная верстка считается устаревшей или _
+          таблицы используются исключительно для верстки табличных данных.
+
+    -->
+
+    <div class="tbl">
+        <h2>Табличная вёрстка</h2>
+        <table>
+            <tr>
+                <td><a href="#">первая ссылка</a></td>
+                <td><a href="#">вторая ссылка</a></td>
+                <td><a href="#">третья ссылка</a></td>
+                <td><a href="#">четвертая ссылка</a></td>
+                <td><a href="#">пятая ссылка</a></td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <!--макет DIV-->
+    <!--
+    *  обтекаемые блоки:
+        плюсы:
+        - адаптивность
+        - быстрое отображение в сравнении с таблицами
+        - огромные возможности использования таблицы стилей CSS
+        минусы:
+        - ширина элемента задается наполнением (исключая дополнительные указания стилями)
+        - кросс-браузерность
+
+    -->
+
+    <div class="container_div">
+        <h2>Обтекаемые элементы</h2>
+        <div><a href="#">первая ссылка</a></div>
+        <div><a href="#">вторая ссылка</a></div>
+        <div><a href="#">третья ссылка</a></div>
+        <div><a href="#">четвертая ссылка</a></div>
+        <div><a href="#">пятая ссылка</a></div>
+        
+    </div>
+
+        <!--макет DIV-->
+    <!--
+    *  управление режимом отображения:
+        см.выше
+
+    -->
+
+    <div class="container_inline">
+        <h2>Управление режимом отображения</h2>
+        <p><a href="#">первая ссылка</a></p>
+        <p><a href="#">вторая ссылка</a></p>
+        <p><a href="#">третья ссылка</a></p>
+        <p><a href="#">четвертая ссылка</a></p>
+        <p><a href="#">пятая ссылка</a></p>
+        
+    </div>
+    
+
+</body>
+</html>
